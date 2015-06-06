@@ -9,13 +9,19 @@ import android.os.Bundle;
 import com.moreno.newsfeed.R;
 
 /**
- * Created by Moreno on 27.05.2015.
+ * Dialog with dynamically created title and message
  */
 public class WarningDialog extends DialogFragment {
     public static final String TITLE_KEY = "title";
     public static final String MESSAGE_KEY = "message";
     public static final String TAG = "warning dialog";
 
+    /**
+     *
+     * @param titleId   Resource id of dialog's title
+     * @param messageId Resource id of dialog's message
+     * @return  Customized dialog
+     */
     public static WarningDialog createDialog(int titleId, int messageId) {
         WarningDialog dialog = new WarningDialog();
         Bundle args = new Bundle();

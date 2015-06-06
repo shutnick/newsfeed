@@ -4,6 +4,4 @@
     <item android:id="@+id/load_news"
         android:title="@string/load_news_action"
         app:showAsAction="ifRoom"/>
-    <item android:id="@+id/action_settings" android:title="@string/action_settings"
-        android:orderInCategory="100" app:showAsAction="never" />
 </menu>

@@ -4,11 +4,9 @@
     <string name="load_news_action">Load news</string>
     <string name="warning_dialog_ok_button_text">OK</string>
     <string name="warning_dialog_title_internet">No internet connection</string>
-    <string name="warning_dialog_message_no_internet">Please, check your Intenet settings. \nTrying to load cache...</string>
+    <string name="warning_dialog_message_no_internet">Please, check your Internet settings</string>
     <string name="warning_dialog_connection_error_title">Connection error</string>
-    <string name="warning_dialog_connection_error_message">Error occured when trying to load data</string>
+    <string name="warning_dialog_connection_error_message">Error occurred when trying to load data</string>
     <string name="warning_dialog_error_title">Error</string>
     <string name="warning_dialog_error_parsing_json_message">Error of parsing server data. \nTry again later</string>
-    <string name="warning_dialog_no_cache_title">No cache</string>
-    <string name="warning_dialog_configure_internet_message">Cache is empty. \nConfigure your internet connection</string>
 </resources>
